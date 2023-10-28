@@ -1,34 +1,110 @@
-ul{
+/* Reset some default styles */
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header img {
+    max-width: 100px;
+  }
+  
+  .nav_bar {
     list-style: none;
-}
-
-ul li{
-    float: left;
-    width: 200px;
-    height: 40px;
-    background-color: #003542;
-    opacity: 0.9;
-    line-height: 40px;
+    display: flex;
+    padding: 0;
+  }
+  
+  .nav_bar li {
+    margin-right: 20px;
+  }
+  
+  /* Style the large hero section */
+  .large-hero {
     text-align: center;
-    font-size: 20px;
-}
-
-ul li a {
+    background-image: url('assets/images/hero--large.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  
+  a {
     text-decoration: none;
-    color: white;
-    display: block;
-}
-
-ul li a:hover {
-    background-color: orangered;
-}
-
-ul li ul li{
-    display: none;
-}
-
-ul li:hover ul li{
-    display: block;
-}
+    color: #007BFF;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the sections */
+  .section {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px 0;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Style links within sections */
+  .section a {
+    color: #007BFF;
+  }
+  
+  .section a:hover {
+    text-decoration: underline;
+  }
+  
